@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2021-03-30 15:44:44 +0200",
+      "minecraft:mountains": "2021-03-30 15:45:34 +0200",
+      "minecraft:dark_forest": "2021-03-30 15:45:30 +0200",
+      "minecraft:river": "2021-03-30 15:45:00 +0200",
+      "minecraft:wooded_hills": "2021-03-30 15:45:06 +0200",
+      "minecraft:swamp": "2021-03-30 15:45:29 +0200",
+      "minecraft:plains": "2021-03-30 15:44:50 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2692
+}
