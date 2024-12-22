@@ -11,8 +11,7 @@ done
 
 echo "Server Minecraft avviato! Avvio del bot..."
 cd C:\Users\musta\Documents\MCserver\plugins\minecraft-server\
-node server.js &
-BOT_PID=$!
+node server.js & BOT_PID=$!
 
 echo "Server Minecraft e bot avviati con successo."
 echo "PID server: $MC_SERVER_PID, PID bot: $BOT_PID"
