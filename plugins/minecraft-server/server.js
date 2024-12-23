@@ -1,7 +1,7 @@
 const mineflayer = require('mineflayer');
 const Item = require('prismarine-item')(1.21)
 const bot = mineflayer.createBot({
-    host: '25.60.81.241',
+    host: 'localhost',
     port: 25565,
     username: 'FrescoDiZona',
     version: '1.21.1'
