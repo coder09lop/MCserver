@@ -1,7 +1,7 @@
 const mineflayer = require('mineflayer');
 const Item = require('prismarine-item')(1.21)
 const bot = mineflayer.createBot({
-    host: 'localhost',
+    host: '25.60.81.241',
     port: 25565,
     username: 'FrescoDiZona',
     version: '1.21.1'
@@ -9,19 +9,6 @@ const bot = mineflayer.createBot({
 function giveItem(bot, item, count) {
     const mcData = require('minecraft-data')(bot.version);
     const itemId = mcData.itemsByName[item]?.id;
-    var item = new Item(mcData.itemsByName.diamond_sword.id, 1, 0);
-    var item2 = new Item(mcData.itemsByName.netherite_sword.id, 1, 0);
-    var item3 = new Item(mcData.itemsByName.diamond_pickaxe.id, 1, 0);
-    var item4 = new Item(mcData.itemsByName.netherite_pickaxe.id, 1, 0);
-    var item5 = new Item(mcData.itemsByName.diamond_helmet.id, 1, 0);
-    var item6 = new Item(mcData.itemsByName.netherite_helmet.id, 1, 0);
-    var item7 = new Item(mcData.itemsByName.diamond_chestplate.id, 1, 0);
-    var item8 = new Item(mcData.itemsByName.netherite_chestplate.id, 1, 0);
-    var item9 = new Item(mcData.itemsByName.diamond_leggings.id, 1, 0);
-    var item10 = new Item(mcData.itemsByName.netherite_leggings.id, 1, 0);
-    var item11 = new Item(mcData.itemsByName.diamond_boots.id, 1, 0);
-    var item12 = new Item(mcData.itemsByName.netherite_boots.id, 1, 0);
-    var item13 = new Item(mcData.itemsByName.diamond_sword.id, 1, 0);
     if (!itemId) {
         bot.chat(`Oggetto "${item}" non trovato!`);
         return;
