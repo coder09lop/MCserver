@@ -33,11 +33,6 @@ bot.on('spawn', () => {
     giveItem(bot,'golden_carrot', 128);
     giveItem(bot,'apple', 128);
     giveItem(bot,'diamond_sword', 1);
-    if (!itemId) {
-        bot.chat(`Oggetto "${item}" non trovato!`);
-        return;
-
-    }
 
 })
 bot.on('chat', (username, message) => {
