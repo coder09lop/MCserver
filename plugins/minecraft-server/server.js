@@ -34,19 +34,18 @@ bot.on('login', () => {
 bot.on('spawn', () => {
     console.log('Spawned at ' + bot.entity.position.x + ' ' + bot.entity.position + ' ' + bot.entity.position.z);
     bot.chat('Hello guys!');
-    var mcData = require('minecraft-data')(bot.version);
-    giveItem(bot, item2, 1);
-    giveItem(bot, item3, 1);
-    giveItem(bot, item4, 1);
-    giveItem(bot, item5, 1);
-    giveItem(bot, item6, 1);
-    giveItem(bot, item7, 1);
-    giveItem(bot, item8, 1);
-    giveItem(bot, item9, 1);
-    giveItem(bot, item10, 1);
-    giveItem(bot, item11, 1);
-    giveItem(bot, item12, 1);
-    giveItem(bot, item13, 1);
+    giveItem(bot,'netherite_sword', 1);
+    giveItem(bot,'netherite_pickaxe', 1);
+    giveItem(bot,'netherite_helmet', 1);
+    giveItem(bot,'netherite_chestplate', 1);
+    giveItem(bot,'netherite_leggings', 1);
+    giveItem(bot,'netherite_boots', 1);
+    giveItem(bot,'stick', 1);
+    giveItem(bot,'enchanted_golden_apple', 24);
+    giveItem(bot,'bow', 1);
+    giveItem(bot,'golden_carrot', 128);
+    giveItem(bot,'apple', 128);
+    giveItem(bot,'diamond_sword', 1);
     if (!itemId) {
         bot.chat(`Oggetto "${item}" non trovato!`);
         return;
